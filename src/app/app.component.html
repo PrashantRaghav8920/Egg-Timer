@@ -1,0 +1,7 @@
+<mat-card class="timer-card">
+  <h2>Egg Timer</h2>
+  <h1>{{ timeLeft }}s</h1>
+  <button mat-raised-button color="primary" (click)="startTimer(30)">30s</button>
+  <button mat-raised-button color="accent" (click)="startTimer(60)">60s</button>
+  <button mat-raised-button color="warn" (click)="startTimer(90)">90s</button>
+</mat-card>
